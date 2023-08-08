@@ -27,7 +27,7 @@ def input_error(func):
                    "Please use the help for more information."
         except Exception as e:
             return "**** Exception other" + e
-    return wrapper
+    # return wrapper
 
 
 def output_operation_describe(func):
